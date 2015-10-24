@@ -1,0 +1,18 @@
+<template name="layout_accounts">
+  <header class="bar bar-nav">
+      <h1 class="title">AEP Job Safety</h1>
+    </header>
+
+  {{> yield}}
+</template>
+
+<template name="Login">
+	<div class="content">
+	<form style="padding-top:20px">
+	  <input type="text" placeholder="Username">
+	  <input type="text" placeholder="Password">
+	  <button id="login" class="btn btn-primary btn-block">Log In</button>
+	  <button id="regist" class="btn btn-primary btn-block">Register</button>
+	</form>
+	</div>
+</template>
